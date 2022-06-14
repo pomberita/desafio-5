@@ -1,0 +1,81 @@
+/*RESET*/
+html {
+    font-size: 62, 5%;
+}
+
+/*RESETEO*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*INDEX*/
+/*TÍTULO*/
+
+.discursos {
+    display: block;
+    color: #e8e3de;
+    background-image: url(imagenes/header.png);
+    height: 25vw;
+}
+
+main {
+    background-color: #28282a;
+}
+
+.discursos__texto {
+    display: flex;
+    height: 25vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 450%;
+}
+
+#main__p {
+    max-width: 60vw;
+    text-align: center;
+}
+
+section img {
+    max-height:70vw;
+}
+
+#main__obra {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#main__obra--titulo {
+    color: #e8e3de;
+}
+
+#carouselExampleFade {
+    margin-bottom: 8vw;
+}
+
+footer {
+    color: #e8e3de;
+    background-color: #28282a;
+    padding-top: 8vw;
+    padding-right: 4vw;
+}
+
+/*GALERÍA*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+}
+
+.cards img {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 23vw;
+    /*data-mdb-toggle="animation";
+    data-mdb-animation-reset="true";
+    data-mdb-animation-start="onHover";
+    sata-mdb-animation="pulse";*/
+}
