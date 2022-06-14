@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discuros del cuerpo</title>
+    <link href="style.css" rel="stylesheet">
     <!--BOOTSTRAP-->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -14,49 +15,38 @@
 
     <body>
         <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-        <header>
-            <!--HEADER CON BTN A GALERÍA-->
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                    <h5 class="text-white h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
+        <header class="header__galeria">
+            <!--HEADER CON BOTÓN A INDEX-->
             <nav class="navbar navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
+                <form class="container-fluid justify-content-end">
+                    <button class="btn btn-outline-success me-2" type="button">Menú</button>
+                </form>
             </nav>
         </header>
-        <main class="cards">
+        <main>
+            <title class="galeria__titulo">Discursos del cuerpo</title>
             <!-- GALERÍA -->
             <div class="row">
                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                    <img src="imagenes/1.png" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+                    <img src="imagenes/1.png" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
 
-                    <img src="imagenes/2.png" class="w-100 shadow-1-strong rounded mb-4"
-                        alt="Wintry Mountain Landscape" />
+                    <img src="imagenes/2.png" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
                 </div>
 
                 <div class="col-lg-4 mb-4 mb-lg-0">
-                    <img src="imagenes/3.png" class="w-100 shadow-1-strong rounded mb-4"
-                        alt="Mountains in the Clouds" />
+                    <img src="imagenes/3.png" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
 
-                    <img src="imagenes/4.png" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+                    <img src="imagenes/4.png" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
                 </div>
 
                 <div class="col-lg-4 mb-4 mb-lg-0">
-                    <img src="imagenes/5.png" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+                    <img src="imagenes/5.png" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
 
-                    <img src="imagenes/6.png" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+                    <img src="imagenes/6.png" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
                 </div>
             </div>
         </main>
-        <footer>
+        <footer class="footer__galeria">
             <nav aria-label="breadcrumb" class="d-flex justify-content-end">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">Julia Bozzarelli 2022</a></li>
